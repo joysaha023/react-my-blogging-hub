@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header/Hader'
 import Blogs from './components/Blogs/Blogs'
+import Bookmart from './components/Bookmarks/Bookmart'
 
 
 function App() {
@@ -12,7 +13,10 @@ function App() {
   return (
     <>
       <Header></Header>
+      <div className='md:flex'>
       <Blogs></Blogs>
+      <Bookmart></Bookmart>
+      </div>
       
       
       
