@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='md:flex gap-4'>
+      <div className='md:flex gap-4 mt-4'>
       <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
       <Bookmart readinTime={readinTime} bookmarks={bookmarks}></Bookmart>
       </div>
