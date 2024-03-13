@@ -15,6 +15,7 @@ function App() {
   }
 
   const handleMarkAsRead = (time, id) => {
+    console.log(time)
     const newReadingTime = readinTime + time;
     setReadingTime(newReadingTime)
 
